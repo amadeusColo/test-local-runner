@@ -2,7 +2,7 @@ name: Awesome Workflow
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   display:
