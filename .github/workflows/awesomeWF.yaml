@@ -1,0 +1,12 @@
+name: Awesome Workflow
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  display:
+    runs-on: self-hosted
+    steps:
+      - name: Just display
+        run: echo "Im working"  
